@@ -8,8 +8,30 @@
 }
 
 body {
-    color:black;
+    color:darkblue;
     font-family: Hind Siliguri, sans-serif;
     font-weight: 300;
+}
 
+/*header styling*/
+
+#hompage_logo {
+    float: left;
+    font-size: 320%;
+}
+
+#navigation {
+    float: right;
+    list-style-type: none;
+    margin-right: 30xp;
+    font-size: 120%;
+    letter-spacing: 5px;
+}
+
+#navigation a:hover {
+    background-color: aqua;
+}
+
+.active a:active {
+    background-color: red;
 }
