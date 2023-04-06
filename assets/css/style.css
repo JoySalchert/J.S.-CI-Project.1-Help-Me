@@ -1,4 +1,9 @@
+/*this is the Font-Family link*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
 body {
-    color:black
-    
+    color:black;
+    font-family: Hind Siliguri, sans-serif;
+    font-weight: 300;
+
 }
