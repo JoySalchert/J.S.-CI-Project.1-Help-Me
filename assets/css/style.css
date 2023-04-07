@@ -66,8 +66,8 @@ color: black;
 
 h4, p {
     font-size: 150%;
-    color: gray;
-    -webkit-text-stroke: 1px rgba(255, 0, 0, 0.513);
+    color: rgb(56, 0, 139);
+    -webkit-text-stroke: 1px aqua;
 }
 
 #location_1 {
