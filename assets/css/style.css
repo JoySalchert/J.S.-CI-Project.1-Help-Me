@@ -90,24 +90,31 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     background-image: url('../images/Location 2 Image :pexels-jonathan-meyer-668300.jpg');
     }
 
-    /*style contact footer section*/
+ /*style contact footer section*/
 
-        #contact {
+    #contact {
             height: 150px;
-        }
+    }
         
-        .social-networks {
+    .social-networks {
             text-align: center;
         
-        }
+    }
         
-        .social-networks li {
+    .social-networks li {
             display: inline;
-        }
+    }
         
-        .social-networks i {
+    .social-networks i {
             font-size: 150%;
             margin: 1%;
             padding: 5%;
             color: rgba(255, 0, 0, 0.513);
-        }
+    }
+
+    /*style for volunteer sign up form*/
+
+    #form_section {
+            margin-top: 300px;
+            text-align: left;
+    }
