@@ -62,7 +62,7 @@ outline-color: crimson;
 }
 
 hr {
-    font-size: initial;
+    font-size: inherit;
     margin: 30px;
     padding: 30px;
     border: 2px black;
@@ -75,6 +75,7 @@ text-align: center;
 color: rgb(56, 0, 139);
 font-weight: 100;
 font-size: 150%;
+padding-bottom: 175px;
 }
 
 p {
@@ -128,6 +129,7 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
 
     #contact {
             height: 150px;
+            clear: left;
     }
         
     .social-networks {
@@ -148,8 +150,45 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
 
     /*style for volunteer sign up form*/
 
-    #form_section {
-            margin-top: 100px;
-            text-align: left;
-            border: 1px;
+ #form_section {
+    float: left;
+    color: green;     
+ }
+
+ legend {
+    color: rgb(56, 0, 139);
+ }
+
+fieldset {
+    margin-left: 5px;
+    padding: 5px;
+    color: rgb(56, 0, 139);
+    border: 2px groove black;
+    border-radius: 5px;
+}
+
+/*Submit and Reset Butons*/
+
+input[type=submit] {
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    color: green;
+    border: 2px groove green;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    border: 2px groove black;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+background-color: aqua;
+}
+
+input[type=reset]:hover {
+    background-color: aqua;
     }
