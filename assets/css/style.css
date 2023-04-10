@@ -43,10 +43,12 @@ body {
 #hero_image {
     height: 600px;
     width: 100%;
+    background-size:auto;
+    background-repeat: no-repeat;
     background-image: url('../images/Hero\ Image\ :\ pexels-negative-space-33999.jpg');
 }
 
-/*hotline and locations sections styling*/
+/*hotline section styling*/
 
 #hotline {
 text-align: center;
@@ -60,9 +62,20 @@ outline: auto;
 outline-color: crimson;
 }
 
+hr {
+    font-size: initial;
+    margin: 30px;
+    padding: 30px;
+    border: 2px black;
+}
+
+/*locations section styling*/
+
 #locations {
 text-align: center;
-color: black;
+color: rgb(56, 0, 139);
+font-weight: 100;
+font-size: 150%;
 }
 
 p {
@@ -92,6 +105,26 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     background-image: url('../images/Location 2 Image :pexels-jonathan-meyer-668300.jpg');
     }
 
+    #address_1 {
+        float: left;
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+        height: 300px;
+        width: 49%;
+        background-color: rgb(56, 0, 139);
+        }
+        
+        #address_2 {
+            float: right;
+            padding-top: 30px;
+            text-align: center;
+            color: white;
+            height: 300px;
+            width: 49%;
+            background-color: rgb(56, 0, 139);
+            }
+
  /*style contact footer section*/
 
     #contact {
@@ -119,4 +152,5 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     #form_section {
             margin-top: 100px;
             text-align: left;
+            border: 1px;
     }
