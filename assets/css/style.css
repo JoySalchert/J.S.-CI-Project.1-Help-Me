@@ -159,8 +159,13 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     }
 
     /*style for volunteer sign up form*/
+header > a {
+    margin-left: 60px;
+}
 
 aside {
+    margin-top: 100px;
+    margin-right: 30px;
     float: right;
     clear: right;
 }    
@@ -173,10 +178,12 @@ aside {
 
  legend {
     color: rgb(56, 0, 139);
+    background-color: white;
+    border-radius: 10px;
  }
 
 fieldset {
-    margin-left: 5px;
+    margin-left: 30px;
     padding: 5px;
     color: rgb(56, 0, 139);
     border: 2px groove black;
