@@ -68,6 +68,15 @@ hr {
     border: 2px black;
 }
 
+/*about us article styling*/
+article {
+padding-left: 30px;    
+text-align: left;
+color: rgb(56, 0, 139);
+font-size: 125%;
+background-image: url('../images/Hero\ Image\ :\ pexels-negative-space-33999.jpg');
+}
+
 /*locations section styling*/
 
 #locations {
@@ -149,6 +158,11 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     }
 
     /*style for volunteer sign up form*/
+
+aside {
+    float: right;
+    clear: right;
+}    
 
  #form_section {
     float: left;
