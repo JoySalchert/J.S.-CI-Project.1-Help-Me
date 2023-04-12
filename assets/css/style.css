@@ -152,6 +152,7 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
 
  #form_section {
     float: left;
+    clear: left;
     color: green;     
  }
 
@@ -165,6 +166,7 @@ fieldset {
     color: rgb(56, 0, 139);
     border: 2px groove black;
     border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.500);
 }
 
 /*Submit and Reset Butons*/
