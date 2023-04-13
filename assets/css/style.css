@@ -23,9 +23,9 @@ body {
 
 #navigation {
     float: right;
+    margin-top: 30px;
     padding-right: 60px;
     list-style-type: none;
-    margin-right: 30xp;
     font-size: 120%;
     letter-spacing: 5px;
 }
@@ -216,3 +216,58 @@ background-color: aqua;
 input[type=reset]:hover {
     background-color: aqua;
     }
+
+/*media queries for small screens sizes from 800px wide and down*/
+@media screen and (max-width: 800px){
+
+/*navigation media queries*/
+#navigation {
+    float: left;
+    clear: left;
+    margin-left: 15px;
+    padding-left: 15xp;
+    font-size: 120%;
+}
+
+/*hero image media queries*/
+
+#hero_image {
+    height: 300px;
+    width: 90%;
+    clear:left;
+    margin-left: 30px;
+    padding-top: 30px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/*hotline section styling*/
+#hotline {
+    font-size: 180%;
+    padding-top: 15px;
+    }
+
+/*location section media queries*/ 
+        #address_1 {
+            float: left;
+            width: 100%;
+            }
+            
+            #address_2 {
+                float: left;
+                clear: left;
+                margin-top: 30px;
+                width: 100%;
+
+/*form media queries*/    
+    header > a {
+        margin-left: 30px;
+    }
+    
+    aside {
+        margin-top: 30px;
+        margin-left: 15px;
+        float: left;
+        clear: left;
+    }
+}
