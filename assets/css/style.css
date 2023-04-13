@@ -165,7 +165,7 @@ header > a {
 
 aside {
     margin-top: 60px;
-    margin-right: 200px;
+    margin-right: 175px;
     height: 600px;
     width: 400px;
     float: right;
@@ -191,6 +191,14 @@ fieldset {
     border: 2px groove black;
     border-radius: 5px;
     background-color: rgba(0, 255, 255, 0.500);
+}
+
+fieldset > hr {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px groove lightgrey;
 }
 
 /*Submit and Reset Butons*/
@@ -266,9 +274,12 @@ input[type=reset]:hover {
         margin-left: 30px;
     }
     
-    aside {
+aside > img {
         margin-top: 30px;
-        margin-left: 15px;
+        padding-left: 60px;
+        margin-left: 60px;
+        margin-right: 0px;
+        padding-right: 0px;
         float: left;
         clear: left;
     }
