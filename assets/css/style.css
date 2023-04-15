@@ -158,7 +158,7 @@ p {
     color: rgba(255, 0, 0, 0.513);
 }
 
-/*style for volunteer sign up form*/
+/*style for volunteer sign up form.html*/
 header > a {
     margin-left: 60px;
 }
@@ -201,7 +201,7 @@ fieldset > hr {
     border-bottom: 2px groove lightgrey;
 }
 
-/*Submit and Reset Butons*/
+/*Form: Submit and Reset Butons*/
 
 input[type=submit] {
     margin-left: 0.75rem;
@@ -226,6 +226,8 @@ input[type=submit]:hover {
 input[type=reset]:hover {
     background-color: aqua;
 }
+
+/*style for services_page.html*/
 
 /*media queries for small screens sizes from 800px wide and down*/
 @media screen and (max-width: 800px){
