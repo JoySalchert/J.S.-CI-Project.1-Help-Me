@@ -44,7 +44,7 @@ body {
     height: 600px;
     width: 100%;
     background-size:auto;
-    background-image: url('../images/Hero_Image.jpg');
+    background-image: url('../images/hero_image.jpg');
 }
 
 /*hotline section styling*/
@@ -102,7 +102,7 @@ text-align: center;
 height: 300px;
 width: 49%;
 background-size: cover;
-background-image: url('../images/Location_Downtown_Image.jpg');
+background-image: url('../images/location_downtown_image.jpg');
 }
 
 #location_2 {
@@ -112,7 +112,7 @@ background-image: url('../images/Location_Downtown_Image.jpg');
     height: 300px;
     width: 49%;
     background-size: cover;
-    background-image: url('../images/Location_Harbor_Image.jpg');
+    background-image: url('../images/location_harbor_image.jpg');
     }
 
     #address_1 {
