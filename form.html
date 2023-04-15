@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <!-- meta data --> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Outpatient Medical Center providing Substance Abuse Help and Minimal Healthcare for Free">
     <meta name="keywords" content="free, walkin, outpatient, medical center, healp center, help hotline, substance abuse, healthcare">
+    
+    <!-- stylesheet link --> 
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- title -->
     <title>Help Me! | Substance-Abuse-Help-Center</title>
-</head>
-<body>
+  </head>
+
+  <body>
+
+    <!-- Hompage link and Logo --> 
     <header>
         <a id="hompage_logo" href="index.html"><h1>Help Me!</h1>
             Home
         </a>
     </header>
-</br>
-<aside>
-  <img src="assets/images/volunteer_image.jpg" alt="Decorative Photo of one of our frindly volunteers." width="400" height="600">
-</aside>
+    </br>
+    <aside>
+      <img src="assets/images/volunteer_image.jpg" alt="Decorative Photo of one of our frindly volunteers." width="400" height="600">
+    </aside>
 
-   <section id="form_section">
-    <hr>
-      <h1>Come join our Volunteer-Force</h1>
+    <section id="form_section">
+     <hr>
+      <!-- form headline / call to action --> 
+      <h1>Come join our Volunteer-Force!</h1>
 
-	  <form action="https://formdump.codeinstitute.net" method="POST">
+      <!-- form --> 
+	    <form action="https://formdump.codeinstitute.net" method="POST">
 
+      <!-- fieldset -->  
 	    <fieldset id="fieldset">
           <legend>Your details</legend>
 
+          <!-- User name and email --> 
           <div>
             <label for="name_field">Name</label>
             <input id="name_field" type="text" placeholder="Last, First" required>
-          </br>
+           </br>
             <label for="email-field">Email</label>
             <input id="email-field" type="email" placeholder="Your Email" required>
           </div>
 
+          <!-- volunteer houres counter and location choice --> 
           <div>
             <label for="volunteer_hours">Please indicate how many Hours You wish to Volunteer per Month:</label>
             <input type="time" value="hours" required>
-          </br>
-          <h4>Chose at wich Walk-in-Clinic You want to work (one or both possible):</h4>
-        </br>
+           </br>
+            <h4>Chose at wich Walk-in-Clinic You want to work (one or both possible):</h4>
+           </br>
             <label for="checkbox_downtown">Downtown Clinic on Main Street, Nr. 1a</label>
             <input type="checkbox">
-        </br>
+           </br>
             <label for="checkbox_harbor">Old-Harbor Clinic on Harbor Street, Nr. 2b</label>
             <input type="checkbox">
           </div>
 
-		    <input type="submit" value="Join the Team!">
-		    <input type="reset" value="Reset Form">
+		      <!-- buttons --> 
+          <input type="submit" value="Join the Team!">
+		      <input type="reset" value="Reset Form">
         </fieldset>
       </form>
     </section>
-</br>
+    </br>
 
     <!-- footer taken from the CI Love Running Project (i added aria-label)-->
     <footer id="contact">
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="facebook icon link"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="twitter icon link"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="youtube icon link"><i class="fab fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="instagram icon link"><i class="fab fa-instagram"></i></a></li>
-        </ul>
+      <ul class="social-networks">
+        <li>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="facebook icon link"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="twitter icon link"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="youtube icon link"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="instagram icon link"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
     </footer>
 
-    <!-- font source -->
-    <script src="https://kit.fontawesome.com/7986ee263b.js" crossorigin="anonymous"></script>
+  </body>
 
-</body>
+  <!-- font source -->
+  <script src="https://kit.fontawesome.com/7986ee263b.js" crossorigin="anonymous"></script>
+
 </html>
