@@ -50,15 +50,15 @@ body {
 /*hotline section styling*/
 
 #hotline {
-text-align: center;
-font-size: 200%;
-color: crimson;
-padding-top: 30px;
-padding-bottom: 30px;
-margin-right: 30px;
-margin-left: 30px;
-outline: auto;
-outline-color: crimson;
+    text-align: center;
+    font-size: 200%;
+    color: crimson;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    outline: auto;
+    outline-color: crimson;
 }
 
 hr {
@@ -71,21 +71,21 @@ hr {
 
 /*about us article styling*/
 article {
-padding-left: 30px;    
-text-align: left;
-color: rgb(56, 0, 139);
-font-size: 125%;
-background-color: rgb(232, 232, 232);
+    padding-left: 30px;    
+    text-align: left;
+    color: rgb(56, 0, 139);
+    font-size: 125%;
+    background-color: rgb(232, 232, 232);
 }
 
 /*locations section styling*/
 
 #locations {
-text-align: center;
-color: rgb(56, 0, 139);
-font-weight: 100;
-font-size: 150%;
-padding-bottom: 175px;
+    text-align: center;
+    color: rgb(56, 0, 139);
+    font-weight: 100;
+    font-size: 150%;
+    padding-bottom: 175px;
 }
 
 p {
@@ -96,13 +96,13 @@ p {
 }
 
 #location_1 {
-float: left;
-padding-top: 30px;
-text-align: center;
-height: 300px;
-width: 49%;
-background-size: cover;
-background-image: url('../images/location_downtown_image.jpg');
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    height: 300px;
+    width: 49%;
+    background-size: cover;
+    background-image: url('../images/location_downtown_image.jpg');
 }
 
 #location_2 {
@@ -113,52 +113,52 @@ background-image: url('../images/location_downtown_image.jpg');
     width: 49%;
     background-size: cover;
     background-image: url('../images/location_harbor_image.jpg');
-    }
+}
 
-    #address_1 {
-        float: left;
-        padding-top: 30px;
-        text-align: center;
-        color: white;
-        height: 300px;
-        width: 49%;
-        background-color: rgb(56, 0, 139);
-        }
+#address_1 {
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 49%;
+    background-color: rgb(56, 0, 139);
+}
         
-        #address_2 {
-            float: right;
-            padding-top: 30px;
-            text-align: center;
-            color: white;
-            height: 300px;
-            width: 49%;
-            background-color: rgb(56, 0, 139);
-            }
+#address_2 {
+    float: right;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 49%;
+    background-color: rgb(56, 0, 139);
+}
 
- /*style contact footer section taken from CI-Love-Running Project*/
+/*style contact footer section taken from CI-Love-Running Project*/
 
-    #contact {
-            height: 150px;
-            clear: left;
-    }
+#contact {
+    height: 150px;
+    clear: left;
+}
         
-    .social-networks {
-            text-align: center;
+.social-networks {
+    text-align: center;
         
-    }
+}
         
-    .social-networks li {
-            display: inline;
-    }
+.social-networks li {
+    display: inline;
+}
         
-    .social-networks i {
-            font-size: 150%;
-            margin: 1%;
-            padding: 5%;
-            color: rgba(255, 0, 0, 0.513);
-    }
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: rgba(255, 0, 0, 0.513);
+}
 
-    /*style for volunteer sign up form*/
+/*style for volunteer sign up form*/
 header > a {
     margin-left: 60px;
 }
@@ -172,13 +172,13 @@ aside {
     clear: right;
 }    
 
- #form_section {
+#form_section {
     float: left;
     clear: left;
     color: green;     
 }
 
- legend {
+legend {
     color: rgb(56, 0, 139);
     background-color: white;
     border-radius: 10px;
@@ -230,47 +230,46 @@ input[type=reset]:hover {
 /*media queries for small screens sizes from 800px wide and down*/
 @media screen and (max-width: 800px){
 
-/*navigation media queries*/
-#navigation {
-    float: left;
-    clear: left;
-    margin-left: 15px;
-    padding-left: 15xp;
-    font-size: 120%;
-}
+    /*navigation media queries*/
+    #navigation {
+        float: left;
+        clear: left;
+        margin-left: 15px;
+        padding-left: 15xp;
+        font-size: 120%;
+    }
 
-/*hero image media queries*/
+    /*hero image media queries*/
+    #hero_image {
+        height: 300px;
+        width: 90%;
+        clear:left;
+        margin-left: 30px;
+        padding-top: 30px;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
 
-#hero_image {
-    height: 300px;
-    width: 90%;
-    clear:left;
-    margin-left: 30px;
-    padding-top: 30px;
-    background-size:contain;
-    background-repeat: no-repeat;
-}
-
-/*hotline section styling*/
+    /*hotline section styling*/
     #hotline {
-    font-size: 180%;
-    padding-top: 15px;
-}
+        font-size: 180%;
+        padding-top: 15px;
+    }
 
-/*location section media queries*/ 
+    /*location section media queries*/ 
     #address_1 {
-    float: left;
-    width: 100%;
-}
+        float: left;
+        width: 100%;
+    }
             
     #address_2 {
-    float: left;
-    clear: left;
-    margin-top: 30px;
-                width: 100%;
-            }
+        float: left;
+        clear: left;
+        margin-top: 30px;
+        width: 100%;
+    }
 
-/*form media queries*/    
+    /*form media queries*/    
     header > a {
         margin-left: 30px;
     }
