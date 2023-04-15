@@ -44,7 +44,7 @@ body {
     height: 600px;
     width: 100%;
     background-size:auto;
-    background-image: url('../images/Hero\ Image\ :\ pexels-negative-space-33999.jpg');
+    background-image: url('../images/Hero_Image.jpg');
 }
 
 /*hotline section styling*/
@@ -102,7 +102,7 @@ text-align: center;
 height: 300px;
 width: 49%;
 background-size: cover;
-background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.jpg');
+background-image: url('../images/Location_Downtown_Image.jpg');
 }
 
 #location_2 {
@@ -112,7 +112,7 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
     height: 300px;
     width: 49%;
     background-size: cover;
-    background-image: url('../images/Location 2 Image :pexels-jonathan-meyer-668300.jpg');
+    background-image: url('../images/Location_Harbor_Image.jpg');
     }
 
     #address_1 {
@@ -135,7 +135,7 @@ background-image: url('../images/Location 1 Image :pexels-jonathan-meyer-668298.
             background-color: rgb(56, 0, 139);
             }
 
- /*style contact footer section*/
+ /*style contact footer section taken from CI-Love-Running Project*/
 
     #contact {
             height: 150px;
@@ -176,13 +176,13 @@ aside {
     float: left;
     clear: left;
     color: green;     
- }
+}
 
  legend {
     color: rgb(56, 0, 139);
     background-color: white;
     border-radius: 10px;
- }
+}
 
 fieldset {
     margin-left: 30px;
@@ -220,12 +220,12 @@ input[type=reset] {
 }
 
 input[type=submit]:hover {
-background-color: aqua;
+    background-color: aqua;
 }
 
 input[type=reset]:hover {
     background-color: aqua;
-    }
+}
 
 /*media queries for small screens sizes from 800px wide and down*/
 @media screen and (max-width: 800px){
@@ -252,35 +252,26 @@ input[type=reset]:hover {
 }
 
 /*hotline section styling*/
-#hotline {
+    #hotline {
     font-size: 180%;
     padding-top: 15px;
-    }
+}
 
 /*location section media queries*/ 
-        #address_1 {
-            float: left;
-            width: 100%;
-            }
+    #address_1 {
+    float: left;
+    width: 100%;
+}
             
-            #address_2 {
-                float: left;
-                clear: left;
-                margin-top: 30px;
+    #address_2 {
+    float: left;
+    clear: left;
+    margin-top: 30px;
                 width: 100%;
+            }
 
 /*form media queries*/    
     header > a {
         margin-left: 30px;
-    }
-    
-aside > img {
-        margin-top: 30px;
-        padding-left: 60px;
-        margin-left: 60px;
-        margin-right: 0px;
-        padding-right: 0px;
-        float: left;
-        clear: left;
     }
 }
