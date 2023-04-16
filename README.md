@@ -15,8 +15,8 @@ unordert list containing anchors to id's and html-forms linking them together an
 <img src="">
 
 ### Logo and Form menu exeption (Logo + Back to hompage promt):
-The side wide Loge (HelpMe!) also contains an anchor linking it back to the top of the hompage.</br>
-I made the decision to not include the navigation menu on the Form page because it looked cluttered and unnessesary.</br>
+The side wide Loge (HelpMe!) also contains an anchor linking it back to the top of the hompage.<br>
+I made the decision to not include the navigation menu on the Form page because it looked cluttered and unnessesary.<br>
 Instead I basicaly expanded the Logo to include a reminder that it brings the user back to the Home page.
 
 <img src="">
@@ -42,35 +42,35 @@ The side wide Footer section holds an unordert list witch contains social media 
 <hr>
 
 ## Technologies
-- HTML:</br>
+- HTML:<br>
 Was used to give the website its structure and semantic meaning.
-- CSS:</br>
+- CSS:<br>
 The website was styled with CSS on the style.css external file.
-- GitHub:</br>
+- GitHub:<br>
 The Source code is hosted on GitHub and deployed via GitPages.
-- Git:</br>
+- Git:<br>
 Used to commit and push code during the development of the website.
-- Font Awesome:</br>
+- Font Awesome:<br>
 I got my icons from https://kit.fontawesome.com/7986ee263b.js Version5.
-- Google Fonts:</br>
+- Google Fonts:<br>
 The Font Hind Siliguri is from https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap ,sans-serif was used as backup.
 
 <hr>
 
 ## Testing
-- Responsivnes:</br>
-The Website was tested on 3 devices (MacBookAir, iPadAir, iPhone13) and in developer tools.</br>
+- Responsivnes:<br>
+The Website was tested on 3 devices (MacBookAir, iPadAir, iPhone13) and in developer tools.<br>
 It passed my expectations the simple design is also very forgiving witch is why I made the decision to only make CSS media queries for small screens (under 800px).
-- Accessibility:</br>
-Wave Accessibility tool was used for the final testing of the edployed website.</br>
+- Accessibility:<br>
+Wave Accessibility tool was used for the final testing of the edployed website.<br>
 The result:
 
 <img src="">
 
-The Location sections came back with a low contrast error,</br>
-but I did not act on this since I wanted to achive the font outline effect</br>
-(I susspect that the Wave tool can not recognise the -webkit-text-stroke).</br>
-In my opinion the Azure has a high enough contrast to the Purple background.
+The Location sections came back with a low contrast error,<br>
+but I did not act on this since I wanted to achive the font outline effect<br>
+(I susspect that the Wave tool can not recognise the -webkit-text-stroke).<br>
+In my opinion the Azure has a high enough contrast to the Purple background (please dont fail me for this!).
 
 <img src="">
 
@@ -86,4 +86,19 @@ Testing focused on:
 
 ## Functional Testing
 
-- Navigation Links
+- Navigation Links:<br>
+Testing was done by clicking on all of the navigation links the ones in the Navigation Menue as well as the embedded links in the logo and the<br>("> learn more" link conecting the "About Us" section to the services page).
+Result = all the navigation links worked on all 3 html files(index.html, services_page.html and form.html) the hover background-color change also works for all the links in the navigation menu.
+
+- Form Testing:<br>
+The hover background-color change works for both the Submit and the Reset input element.<br>
+Forms are sent to https://formdump.codeinstitute.net .<br>
+The requiered fields: Name, Email and Volunteer-Hours all throw up errors when not filled out correctly, as ecpected.
+
+- Social Media Links Testing:<br>
+All the social media icons link to the correct social media platform and are opened in a new tab.
+
+<hr>
+
+## Deployment
+
