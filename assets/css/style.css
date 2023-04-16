@@ -34,7 +34,7 @@ body {
     background-color: aqua;
 }
 
-.active a:active {
+#navigation a:active {
     background-color: rgba(255, 0, 0, 0.513);
 }
 
@@ -88,7 +88,7 @@ article {
     padding-bottom: 175px;
 }
 
-p {
+.font_outlining {
     font-weight: 100;
     font-size: 150%;
     color: rgb(56, 0, 139);
