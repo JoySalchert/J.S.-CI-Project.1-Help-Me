@@ -80,6 +80,11 @@ article {
 
 /*locations section styling*/
 
+#locations_header {
+    text-align: center;
+    font-size: 150%;
+}
+
 #locations {
     text-align: center;
     color: rgb(56, 0, 139);
