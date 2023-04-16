@@ -246,6 +246,12 @@ table, th, td {
 /*media queries for small screens sizes from 800px wide and down*/
 @media screen and (max-width: 800px){
 
+    /* logo media queries*/
+    #hompage_logo {
+        margin-left: 30px;
+        font-size: 200%;
+    }
+    
     /*navigation media queries*/
     #navigation {
         float: left;
@@ -286,10 +292,7 @@ table, th, td {
     }
 
     /* form media queries */    
-    #hompage_logo {
-        margin-left: 30px;
-        font-size: 200%;
-    }
+    
 
     /* services_page.html media queries */
     article {
