@@ -12,27 +12,33 @@ View the live site <a href="https://joysalchert.github.io/J.S.-CI-Project.1-Help
 ### Navigation menu on home page and services page:
 unordert list containing anchors to id's and html-forms linking them together and enabeling the user to move araund the website intuitively.
 
-<img src="">
+<img src="assets/images/readme_nav_menu_screenshot.jpg">
 
 ### Logo and Form menu exeption (Logo + Back to hompage promt):
 The side wide Loge (HelpMe!) also contains an anchor linking it back to the top of the hompage.<br>
 I made the decision to not include the navigation menu on the Form page because it looked cluttered and unnessesary.<br>
 Instead I basicaly expanded the Logo to include a reminder that it brings the user back to the Home page.
 
-<img src="">
-<img src="">
+<img src="assets/images/readme_logo_screenshot.jpg">
+<img src="assets/images/readme_form_logo_screenshot.jpg">
 
 ### Footer:
 The side wide Footer section holds an unordert list witch contains social media links (to home pages, if the Organization was real thier social links would go here).
 
-<img src="">
+<img src="assets/images/readme_footer_screenshot.jpg">
 
 ### Existing Features:
 - Responsive design (for screens under 800px wide).
 - Hompage with Hero image, about us article with internal link to services page. The Home page also showcases info on Clinic Locations and Help Hotline as well as navigation to the other two pages vie the menu.
-- Volunteer signup Form page with Form.
-- Services Page with information articels and navigation menu.
+<img src="assets/images/readme_hotline_screenshot.jpg">
+<img src="assets/images/readme_home_page_locations_screenshot.jpg">
+<img src="assets/images/readme_about_us_screenshot.jpg">
 
+- Volunteer signup Form page with Form.
+<img src="assets/images/readme_form_page_screenshot.jpg">
+
+- Services Page with information articels and navigation menu.
+<img src="assets/images/readme_services_page_screenshot.jpg">
 
 <hr>
 
@@ -65,14 +71,14 @@ It passed my expectations the simple design is also very forgiving witch is why 
 Wave Accessibility tool was used for the final testing of the edployed website.<br>
 The result:
 
-<img src="">
+<img src="assets/images/readme_wave_test_screenshot.jpg">
 
 The Location sections came back with a low contrast error,<br>
 but I did not act on this since I wanted to achive the font outline effect<br>
 (I susspect that the Wave tool can not recognise the -webkit-text-stroke).<br>
 In my opinion the Azure has a high enough contrast to the Purple background (please dont fail me for this!).
 
-<img src="">
+<img src="assets/images/readme_lighthouse_test_screenshot.jpg">
 
 Testing focused on:
 - Color contrasts meet minimum ratio set in WCAG 2.1 Contrast Guidlines.
@@ -102,3 +108,22 @@ All the social media icons link to the correct social media platform and are ope
 
 ## Deployment
 
+- The site was created using the GidPod code editor and pushed to github to the repository (J.S.-CI-Project.1-Help-Me-).
+- I used the folowing comands to push the code from the GitPod Workspace to the repository:
+> git add .<br>
+> git commit -m "Message"<br>
+> git push
+
+- Deployment to Github Pages:<br>
+I deployed the finished website to Gidhub Pages and got the folowing live link:<br>
+https://joysalchert.github.io/J.S.-CI-Project.1-Help-Me-/
+
+## Credits
+- I took the HTML and CSS code for the footer from the CI-Love-Runnig-Project.
+- I took my mentors (Gareth McGirr) README.md file as the outline for my README.md file.
+- I used generel google queries when I got stuck (mostly W3Schools material).
+
+## Content and Media
+I wrote all the HTML/CSS code and Content-Text (exept for the footer section,<br>
+wich I took and altered from the CI-Love-Runnig-Project).<br>
+The images where free to use from https://www.pexels.com/ .
