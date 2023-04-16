@@ -292,7 +292,15 @@ table, th, td {
     }
 
     /* form media queries */    
-    
+    aside {
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-left: 15px;
+        height: 600px;
+        width: 400px;
+        float: left;
+        clear: left;
+    } 
 
     /* services_page.html media queries */
     article {
